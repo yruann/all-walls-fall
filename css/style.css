@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Ying';
+    src: url('../font/Ying.eot'); /* IE9 Compat Modes */
+    src: 
+    /* url('Ying.eot?#iefix') format('embedded-opentype'),  */
+    /* IE6-IE8 */
+         url('../font/Ying.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/Ying.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../font/Ying.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font/Ying.svg') format('svg'); /* Legacy iOS */
+}
+body {
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+    line-height: 1.15;
+    /* word-spacing: .15ch; */
+    color:black;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+p, h1 {
+    margin: 0 0 2vh 0;
+}
+h1, h2, h3{
+    margin: 1vh 0vw 1vh 0vw;
+    text-transform: uppercase;
+
+}
+h1 {
+    font-family: 'Ying';
+    font-size: 45px;
+}
+h2{
+    font-family: 'Ying';
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* PAGE BASE */
+.left{
+    width: 25vw;
+    top: 62vh;
+    left: 2.5vw;
+    position: fixed;
+    z-index: 2;
+}
+/* .tape{
+    width: 25vw;
+} */
+.left h1 {
+    color:black;
+}
+.rsvp{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(26, 26, 26);
+    color: #f5f5f5;
+}
+
+.col {
+    float: left;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+.bar{
+    position: fixed;
+    width: 30vw;
+    height: 100vh;
+    z-index: 1;
+    -webkit-filter: drop-shadow(3px 3px 25px rgba(0,0,0,.15))
+    drop-shadow(-3px -3px 25px rgba(0,0,0,.15));
+    filter: drop-shadow(3px 3px 25px rgba(0,0,0,.15)) 
+    drop-shadow(-3px -3px 25px rgba(0,0,0,.15));
+}
+.scroll {
+    left: 30%;
+    position: fixed;
+    width: 70vw;
+    height: 100vh;
+    z-index: 0;
+}
+.event-info{
+    margin-top: 2.5vh;
+}
+
+/* CONTENT BASE*/
+.right {
+    position: absolute;
+    z-index: 2;
+    top: 5vh;
+    left: 30vw;
+}
+
+/* FOOTER */
+.foot-box {
+    width: 60vw;
+    text-align: center;
+    height: auto;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(26, 26, 26);
+    margin-top: 2vh;
+    padding: 5vh 5vw 1vh 5vw;
+    /* left: -5vw; */
+    bottom: 0;
+}
+.foot-box a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration:underline;
+}
+.logo-lnk{
+    width: 50px;
+}
+.foot-box .logos {
+    /* padding: 4vh 0 3vh 0; */
+    margin: 0vh auto 2vh auto;
+    display: block;
+    width: 45vw;
+    
+}
+.logos img {
+    height: 6vh;
+    margin: 0 1.25vw 0 1.25vw;
+    display: inline;
+}
+
+
+/* HOME */
+.home {
+    position: fixed;
+    z-index: 2;
+    width: 45px;
+    margin: 3vh 0 0 2.5vw;
+    background-color: rgb(245,245,245,0.8);
+    border-radius: 3px;
+    padding: 10px;
+}
+.inner-content{
+    margin-left: 5vw;
+}
+/* .content .name{
+    margin: 0 0 1.5vh 0;
+    padding: 0;
+} */
+.sl {
+    height: 2.32vh;
+}
+.sm {
+    height: 2.28vh;
+}
+.s {
+    height: 2.22vh;
+}
+.b{
+    height: 2vh; 
+}
+
+.para {
+    position: relative;
+    left: 23vw;
+    margin: 5vh 0 5vh 0;
+    width: 37vw;
+    padding: 0;
+}
+.names a{
+    font-family: 'Ying';
+    letter-spacing: .15ch;
+    line-height: 1.15;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    display: block;
+}
+.names a:hover{
+    color: rgb(41, 96, 213);
+    text-decoration:underline;
+
+}
+/* image */
+.hover-media{
+    position: absolute;
+    top: 5vh;
+    right: 10vw;
+	width: 33vw;
+    max-height: 55vh;
+	display: none;
+	object-fit: contain;
+    z-index: 2;
+}
+video.hover-media {
+	max-width: 100%;
+}
+
+
+
+/* ARTIST PAGES */
+.tape-name {
+    display: block;
+    margin: 2vh 0 5vh 2vw;
+    width: 22vw;
+}
+.back{
+    display: inline-block;
+    margin: 0;
+    padding: 2px 10px 5px 10px;
+    color: rgb(26, 26, 26);
+    background-color: #f5f5f5;
+    border: .75px solid black;
+}
+.content{
+    width: 60vw;
+}
+.statement{
+    /* display: inline; */
+    vertical-align: top;
+
+}
+.artist-img{
+    width: 20vw;
+    float: right;
+    vertical-align: top;
+    /* margin-right: 3vw; */
+    padding: 1vh 1vw 1vh 1vw;
+    -webkit-filter: drop-shadow(-7px 7px 1px rgba(0,0,0,.2));
+    filter: drop-shadow(-7px 7px 1px rgba(0,0,0,.2));
+}
+.links a {
+    margin: 5vh 0 5vh 0;
+    color: black;
+}
+/* 950px width, change left bar, main para width */
+
+
+
+@media only screen and (max-width: 950px) {
+    .para {
+        top: 5vh;
+        left: 0vw;
+        width: 60vw;
+    }
+    .hover-media {
+        /* position: absolute; */
+        top: 5vh;
+        right: 5vw;
+        width: 23vw;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .bar{
+        position: relative;
+        width: 50vw;
+        height: 50vh;
+        object-fit: cover;
+        object-position: 0% -20vh;
+    }
+    .left{
+        position: absolute;
+        /* background-color: blue; */
+        top: 10vh;
+        left: 57vw;
+        width: 37vw;
+        display: inline-block;
+    }
+    .right{
+        top: 60vh;
+        left: 0vw;
+        position: absolute;   
+    }
+    .scroll{
+        left: 0;
+        width: 100%;
+    }
+    .foot-box {
+    width: 100vw;
+    }
+    .content{
+        top: 10vh;
+        width: 100%;
+    }
+    .inner-content {
+        width: 90vw;
+    }
+    .para {
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+    .foot-box .logos {
+        /* padding: 4vh 0 3vh 0; */
+        width: 90vw;
+        margin: 0vh auto 1vh auto;        
+    }
+    .logos img{
+        height: 7vw;
+    }
+    .artist-img{
+        width: 30vw;
+        /* margin-right: 13vw; */
+        padding: 2vh 2vw 2vh 2vw;
+    }
+    /* .names{
+        display: inline;
+    } */
+    /* .name-col{
+        width: 47%;
+        margin-right: 2vw;
+        float: left;
+    } */
+}
+
+@media only screen and (max-width: 675px) {
+    /* h2{
+        font-size: 25px;
+    } */
+    /* .name-col a{
+        font-size: 25px;
+    } */
+     h1{
+        font-size: 37px;
+     }
+    .bar{
+        position: relative;
+        width: 50vw;
+        height: 50vh;
+        object-fit: cover;
+        object-position: 0% -12vh;
+    }
+    .right{
+        top: 55vh;
+    }
+    .artist-img{
+        width: 35vw;
+        /* margin-right: 15vw; */
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    body{
+        font-size: 14px;
+    }
+    .bar{
+        position: relative;
+        width: 50vw;
+        height: 40vh;
+        object-fit: cover;
+        object-position: 0% -10vh;
+    }
+    .left{
+        top: 3vh;
+    }
+    .right{
+        top: 45vh;
+    }
+    .names a{
+        font-size: 25px;
+    }
+    .para, .statement{
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .artist-img{
+        float: none;
+        margin-left: 7vw;
+        width: 60vw;
+    }
+
+}

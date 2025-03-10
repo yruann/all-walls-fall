@@ -1,0 +1,125 @@
+.mySlides {display: none}
+.mySlides img {
+    height: 60vh;
+    position: relative;
+    margin: auto;
+    display: block;
+    max-width: 45vw;
+    max-height: 80vh;
+    object-fit: contain;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    z-index: 1;
+    margin: 7vh auto;
+    padding: 3vh 0 3vh 0;
+    left: 5vw;
+    background-color: rgba(255,255,255,0.25);
+    filter:drop-shadow(3px 3px 3px rgba(0,0,0, 0.3));
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 1.5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dots{
+    position: relative;
+    left: 5vw;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 950px) {
+    .slideshow-container{
+        margin: 10vh auto;
+}
+}
+@media only screen and (max-width: 800px) {
+    .slideshow-container{
+        margin: 10vh auto;
+        left: -5vw;
+        width: 80vw;
+    
+}
+
+}
+
+
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
