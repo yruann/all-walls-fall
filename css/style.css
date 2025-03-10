@@ -350,10 +350,14 @@ video.hover-media {
         width: 50vw;
         height: 40vh;
         object-fit: cover;
-        object-position: 0% -10vh;
+        object-position: 0% 0vh;
     }
     .left{
         top: 3vh;
+        width: 45vw;
+    }
+    h2{
+        line-height: 1;
     }
     .right{
         top: 45vh;
