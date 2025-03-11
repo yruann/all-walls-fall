@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    	<title>Thomas Chang — ALL WALLS FALL</title>
+
+    	<link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/grid-gallery.css">
+
+ 		<link href="https://fonts.googleapis.com/css?family=Big+Shoulders" rel="stylesheet" />
+ 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+ 	</head>
+
+	<body>
+        <div class="container">
+            <a href="../index.html"><img class="col bar"src="../img/base/awf.png" alt="Rectangular hole in drywall revealing the text 'All Walls Fall' written on wood held together by nails."></a>
+            <img class="col scroll"src="../img/base/wall.jpg">
+            <div class="left">
+                <h2>Opening Reception March 28th, 6-8PM</h2>
+                <div class="event-info">
+                    <p>
+                    Mar. 28th-Apr. 20th 2025<br>
+                    Tues-Sun 9AM - 9PM</p>
+                <p>
+                    Logan Center Gallery <br>
+                    915 E. 60th St. <br>
+                    Chicago, IL 60637
+                </p>
+                </div>
+                <a class="rsvp" href="https://events.uchicago.edu/event/all-walls-fall-opening-reception" target="_blank">RSVP</a>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <div class="inner-content">
+                        <h1>Thomas Chang</h1>
+                        <img class="artist-img" src="../img/polaroids/thomas.png" alt="Polaroid image of artist Thomas Chang.">
+
+                        <p class="statement">
+                            [statement]
+                        </p>
+                        <div class="links">
+                            <a href="" target="_blank">
+                                <h2>[link]</h2>
+                            </a>
+                            <a href="" target="_blank">
+                                <h2>[link]</h2>
+                            </a>
+                        </div>
+
+                        <div class="row" id="imageGrid">
+                            <div class="column">
+                              <img src="../img/artists/thomas/1.jpg" onclick="openLightbox(0)">
+                              <img src="../img/artists/thomas/2.jpg" onclick="openLightbox(1)">
+                            </div>
+                            <div class="column">
+                              <img src="../img/artists/thomas/3.jpg" onclick="openLightbox(2)">
+                              <img src="../img/artists/thomas/4.jpg" onclick="openLightbox(3)">
+                            </div>
+                            <div class="column">
+                                <img src="../img/artists/thomas/5.jpg" onclick="openLightbox(4)">
+                                <img src="../img/artists/thomas/6.jpg" onclick="openLightbox(5)">
+                              </div>
+                          </div>
+                          
+                          <div id="lightbox" class="modal" onclick="closeLightbox(event)">
+                            <span class="close" onclick="closeLightbox()">&times;</span>
+                            <img class="modal-content" id="lightboxImage">
+                            <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+                            <a class="next" onclick="changeImage(1)">&#10095;</a>
+                          </div>
+                    </div>
+                </div>
+                <div class="foot-box">
+                    <div class="logos">
+                        <a href="https://www.loganexhibitions.uchicago.edu/" target="_blank"><img src="../img/base/logo-1.png" alt="Logan Center Exhibitions Logo"></a>
+                        <a href="https://dova.uchicago.edu/" target="_blank"><img src="../img/base/logo-2.png" alt="Department of Visual Arts Logo"></a>
+                        <a href="https://www.studentarts.uchicago.edu/" target="_blank"><img src="../img/base/logo-3.png" alt="UChicago Arts Logo"></a>
+                    </div>
+                    <p>Website created by <a href="https://yruann.github.io/portfolio/" target="_blank">Ying Ruan</a></p>
+                </div>
+            </div>
+        </div>
+        <script src="../main.js"></script>
+	</body>
+</html>
