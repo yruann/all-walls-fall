@@ -178,10 +178,9 @@ a {
     color: black;
     display: block;
 }
-.names a:hover{
+.names a:hover, .links a:hover{
     color: rgb(41, 96, 213);
     text-decoration:underline;
-
 }
 /* image */
 .hover-media{
@@ -232,6 +231,7 @@ video.hover-media {
     filter: drop-shadow(-7px 7px 1px rgba(0,0,0,.2));
 }
 .links a {
+    display: inline;
     margin: 5vh 0 5vh 0;
     color: black;
 }
