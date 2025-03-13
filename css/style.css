@@ -235,6 +235,9 @@ video.hover-media {
     margin: 5vh 0 5vh 0;
     color: black;
 }
+.indent {
+    margin: 0 0 0 3vw;
+}
 /* 950px width, change left bar, main para width */
 
 
@@ -371,8 +374,8 @@ video.hover-media {
     }
     .artist-img{
         float: none;
-        margin-left: 7vw;
-        width: 60vw;
+        margin-left: 12vw;
+        width: 50vw;
     }
 
 }
