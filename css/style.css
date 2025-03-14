@@ -169,6 +169,13 @@ a {
     width: 37vw;
     padding: 0;
 }
+#artists{
+    margin-top: 10vh;
+
+}
+/* #artists, .names{
+
+} */
 .names a{
     font-family: 'Ying';
     letter-spacing: .15ch;
@@ -185,7 +192,7 @@ a {
 /* image */
 .hover-media{
     position: absolute;
-    top: 5vh;
+    top: 57vh;
     right: 10vw;
 	width: 33vw;
     max-height: 55vh;
@@ -240,17 +247,21 @@ video.hover-media {
 }
 /* 950px width, change left bar, main para width */
 
-
+@media only screen and (max-width: 1200px) {
+    .hover-media{
+        top: 75vh;
+        width: 27vw;
+    }
+}
 
 @media only screen and (max-width: 950px) {
     .para {
-        top: 5vh;
         left: 0vw;
         width: 60vw;
     }
     .hover-media {
         /* position: absolute; */
-        top: 5vh;
+        top: 65vh;
         right: 5vw;
         width: 23vw;
     }
