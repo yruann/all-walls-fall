@@ -104,7 +104,7 @@ a {
     width: 60vw;
     text-align: center;
     height: auto;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.4);
     background-color: rgb(26, 26, 26);
     margin-top: 2vh;
     padding: 5vh 5vw 1vh 5vw;
@@ -112,7 +112,7 @@ a {
     bottom: 0;
 }
 .foot-box a{
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.4);
     text-decoration:underline;
 }
 .logo-lnk{
