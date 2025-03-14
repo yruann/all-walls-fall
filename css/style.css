@@ -29,11 +29,11 @@ h1, h2, h3{
 
 }
 h1 {
-    font-family: 'Ying';
+    font-family: 'Ying',sans-serif;
     font-size: 45px;
 }
 h2{
-    font-family: 'Ying';
+    font-family: 'Ying',sans-serif;
     font-size: 28px;
 }
 
@@ -177,7 +177,7 @@ a {
 
 } */
 .names a{
-    font-family: 'Ying';
+    font-family: 'Ying',sans-serif;
     letter-spacing: .15ch;
     line-height: 1.15;
     font-size: 30px;
